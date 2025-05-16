@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* HERO SECTION */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* PRODUK SECTION */
+.produk-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.produk-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.produk-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.produk-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.produk-card h3 {
+  margin: 10px 0 5px;
+}
+
+.produk-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.produk-card button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
